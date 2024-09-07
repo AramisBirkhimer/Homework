@@ -81,6 +81,23 @@ Opened log, began working on hw. Opened linux terminal, navigated to hw folder d
 
 I am attempting to understand how to use github to save my progress. It is going slowly. It does not seem to be picking up the changes I am making to this log anymore, I am not sure why. The repository is for my entire hw folder, so it should be able to notice changes to the file. I will continue documenting here, I may also be mistaken because I am very new to using github. It updated just now, I guess it could tell I was doubting it. alright now that I understand github I have modified my template file to contain the function square and added comments appropriately. 
 
-I have finished the first chunk of the homework, I made the first function and tested it with multiple inputs and recorded the results in the examples section of my template file. 
+I have finished the first chunk of the homework, I made the first function and tested it with multiple inputs and recorded the results in the examples section of my template file. I committed my progress to github.
+
+after many google searches and much frustration, I have learned how to use numpy to square 2D arrays, and modified my function to do so. Now I am writing an example of the output in the function docstring. I have finished the square plot function, I had to revise my square function because it didn't like my inputs, turns out theres a way simpler way. 
+
+I had to do a quick crash course on FITS files from the link in the homework, definitely going to need more practice with that, but I managed to plot the zip file, and now I am getting ready to copy my homework folder into the handin folder. to copy my hw folder into the handin section I used the cp -r command and specified the origin directory and the destination directory: cp -r /mnt/c/users/arami/onedrive/classwork-ucf/ast4762c/homework/hw4_abirk /mnt/c/users/arami/onedrive/classwork-ucf/ast4762c/handin
+
+I had to install astropy on my ubuntu system to run the hw file, but it eventually worked. The program runs in the linux environment without issue.
+
+the log was the first thing I put in the hw4 file before making the python file. I used cp -r '0-ast5765-abirk.log' /mnt/c/users/arami/onedrive/classwork-ucf/ast4762c/handin/hw4_abirk
+
+Now I will use the tar zcf hw4_abirk.tar.gz hw4_abirk command to tar my file and submit to webcourses. 
+
+*****OUT: 1:30 AM 9/7/2024
+
+
+
+
+
 
 
