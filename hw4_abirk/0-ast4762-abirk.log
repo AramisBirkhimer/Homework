@@ -1,4 +1,3 @@
-.log
 Aramis Birkhimer
 LOG for AST 4762, Fall 2024
 
@@ -75,5 +74,11 @@ to copy my log into the hw3 folder in handin I used the following command:  cp -
 Realized I forgot to close my log a couple days ago. My bad
 
 *****OUT: 11:56 AM 9/3/2024
+
+*****IN: 9:00 PM 9/6/2024
+
+Opened log, began working on hw. Opened linux terminal, navigated to hw folder directory, used mkdir command to create hw4_abirk folder. Opened directory, used touch command to make hw4_aramisbirk.py file. I have downloaded and copied the template file into my homework folder. The features that stand out to me are the comments throughout explaining the function of every line or groups of lines, so that the reader can tell what purpose that line serves. The abbreviations for the imported libraries also makes code more concise and user friendly. The necessary parts would be the main arguments of the function such as the parameters, operations, and returns (which should all be explained with comments) and then there needs to be an error message for exceptions. I think the notes aren't very important to the functionality of the code but I'm sure they would be helpful with debugging in the future if there was a clear explanation of the algorithm used to design the code. References are important to avoid plagiarism. Having examples of proper execution is sure to be helpful so that a reader can run the examples through the code and guage the response to determine if the code is functioning properly. A revision section seems redundant if we're using github to track all changes to our code, but I guess it can't hurt to be too safe. 
+
+I am attempting to understand how to use github to save my progress. It is going slowly. It does not seem to be picking up the changes I am making to this log anymore, I am not sure why. The repository is for my entire hw folder, so it should be able to notice changes to the file. I will continue documenting here, I may also be mistaken because I am very new to using github. It updated just now, I guess it could tell I was doubting it. 
 
 
