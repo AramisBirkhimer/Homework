@@ -8,30 +8,17 @@ an integer, so I don't need many modules.
 
 import os # standard library imports first
 import numpy as np
+import matplotlib.pyplot as plt
 
 #then write your functions
 def square(x) :
     #this is our function's docstring!
     
-    #begin testing input and operating on the input if it is suitable.
+    #convert input to numpy array
+    y = np.array(x)
     
-    #if input is an integer
-    if isinstance(x, int):
-        
-        #return square of integer
-        return x * x
-    
-    #if input is list, and all items in the list are integers
-    elif isinstance(x, list) and all(isinstance(i, (int, float)) for i in x):
-        
-        #square and return all items in list 
-        return [i * i for i in x]
-    
-    #if neither instance is satisfied
-    else:
-        
-        #raise error message about incorrect input
-        raise TypeError("Input must be integer or list")
+    #raise input to second power and return value
+    return np.power(y, 2)
         
     """
     Example
@@ -49,7 +36,49 @@ def square(x) :
     >>>print(square("notanum"))
     TypeError: Input must be integer or list
     
+    >>>test_squre_2 = np.linspace(0,25,25).reshape(5,5)
+    >>>print(square(test_square_2))
+    [[  0.           1.08506944   4.34027778   9.765625    17.36111111]
+     [ 27.12673611  39.0625      53.16840278  69.44444444  87.890625  ]
+     [108.50694444 131.29340278 156.25       183.37673611 212.67361111]
+     [244.140625   277.77777778 313.58506944 351.5625     391.71006944]
+     [434.02777778 478.515625   525.17361111 574.00173611 625.        ]]
+    
+    
     """
         
     #close function    
     pass
+
+def squareplot(low, high, step, saveplot) :
+    
+    #import square function
+    from module_template_with_docstring import square
+    
+    """
+    make array of values beginning at the low end, that includes the high end
+    in the specified number of steps.
+    """
+    array = np.linspace(low, high, step)
+    print(array)
+    
+    #pass array to square function
+    y = square(array)
+    print(y)
+    
+    #plot result with appropriate labels
+    plt.plot(array,y, label = "y = x^2")
+    plt.xlabel("Input")
+    plt.ylabel("Output")
+    plt.title("Square Function")
+    plt.grid(True)
+    
+    #save plot if user asks
+    if saveplot:
+        plt.savefig(saveplot, format = "pdf")
+    
+    #display plot
+    plt.show()
+    
+    pass
+    
