@@ -10,6 +10,7 @@ import os # standard library imports first
 import numpy as np
 import matplotlib.pyplot as plt
 
+#Problem 2d:
 #then write your functions
 def square(x) :
     #this is our function's docstring!
@@ -23,6 +24,8 @@ def square(x) :
     """
     Example
     -------
+    
+    problem 2e: provide examples
     
     >>>print(square(9))
     81
@@ -50,6 +53,11 @@ def square(x) :
     #close function    
     pass
 
+
+
+
+#problem 3:
+    
 def squareplot(low, high, step, saveplot) :
     
     #import square function
@@ -60,11 +68,9 @@ def squareplot(low, high, step, saveplot) :
     in the specified number of steps.
     """
     array = np.linspace(low, high, step)
-    print(array)
     
     #pass array to square function
     y = square(array)
-    print(y)
     
     #plot result with appropriate labels
     plt.plot(array,y, label = "y = x^2")
@@ -79,6 +85,16 @@ def squareplot(low, high, step, saveplot) :
     
     #display plot
     plt.show()
+    
+    """
+    Example
+    -------
+    
+    >>>squareplot(1, 7, 5, "SquarePlot.pdf")
+    <Plot of squared values>
+    
+    """
+    
     
     pass
     
