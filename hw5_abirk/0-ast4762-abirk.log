@@ -1,0 +1,107 @@
+Aramis Birkhimer
+LOG for AST 4762, Fall 2024
+
+*****IN: 08/19/2024 5:22pm
+
+Opened TextEdit, started this log, saved as:
+C:\Users\arami\OneDrive\Classwork-UCF\AST5765C\Homework\hw1_abirk
+
+Name: Aramis Birkhimer
+
+Username: abirk
+
+What astronomy classes have you taken? I have taken intro to astronomy 1 and 2 as well as their labs at a previous university and I took astronomy 1 last semester
+
+Are you generally comfortable with calculus and physics? yes
+
+Have you ever programmed a computer? I have some experience  
+
+In what language(s)? Python, MATLAB, and C
+
+Have you taken a programming class, and if so which? Intro to python, intro to C, programming for engineers
+
+Have you taken statistics or probability? No, I am taking thermal and statistical mechanics this semester 
+
+Will you be attending the DPS conference this year, or will you be away otherwise? I don't know what that is
+
+Why are you taking this course? Because I am interested in learning how to analyze data quickly using computers. 
+
+Are there particular topics you hope to learn? I would like to sharpen my data analyses and modeling skills
+
+If you have programmed outside of a course before, please briefly describe: I have taken a few intro coding classes for a few languages and I have made a few projects in my spare time for things like tracking calories and quality of life improvements on my home PC, but I'm no professional by any means. 
+
+If you have worked with scientific data before, briefly describe your experience: I have used excel and MATLAB to plot and analyze data before, and I made a few projects for my classical mechanics class that required some use of python for modeling chaotic motion, but that was generated data, not provided. 
+
+Please describe any projects in astronomy, including involvement in amateur groups,
+owning a telescope, research, etc.: In my astronomy lab at ERAU we used telescopes to photograph star clusters and had to use their software to find the star with the highest luminosity and describe some of its features. 
+
+to make my homework folder I navigated to this class's folder, into the homework folder, and made a new file named 'hw1_abirk'. I made the log file in my hw1 folder, so I will actually be copying it elsewhere. To submit I will compress the folder into a zip file and upload it to webcourses for grading. 
+
+*****OUT: 08/19/2024 5:37pm
+
+*****IN: 08/22/2024 8:28pm
+
+Opened notepad, began editing log. I am downloading anaconda, although I usually make most of my code on PyCharm, I did not have time to ask the professor if this was acceptable. I finished downloading anaconda and I am waiting for it to launch. I was prompted to update anaconda and it closed but nothing is downloading, not sure what it did. I opened anaconda and PyCharm. I also downloaded and launched GitHub desktop. I am going to make a screen shot of them now. I took both of the screenshots for the hw assignment and named them appropriately. I opened a windows terminal and typed in 1s and got a lengthy error message. I took a screenshot for the assignment and closed the window. for part 4, I will copy the log from the main folder into the hw2 folder, and compress it along with all of the screenshots, move the zip file to handin folder, and then submit a copy to webcourses for grading. 
+
+*****OUT: 08/22/2024 9:14 pm
+
+*****IN: 08/22/2024 9:21pm
+
+I forgot to mention my python version, I have 3.10.6
+
+I also figured out why I got an error message. I misread LS as one-s and the windows power shell was deeply confused. I corrected the screenshot in my homework folder. according to the rubric and the homework pdf, that should be everything I need. Signing off
+
+*****OUT: 08/22/2024 9:29pm
+
+
+*****IN: 10:18 PM 8/30/2024
+
+I am doing corrections for hw2. I redid the screenshots to include an open coding environment and the file directory list in the linux subsystem. I have also corrected my log to no longer be a .txt file. That should be everything that I lost points for. Abirk out
+
+
+*****OUT: 10:19 PM 8/30/2024
+
+*****IN: 2:19 PM 9/1/2024
+
+I am making the hw3 folder in my hw directory using the mkdir command in the linux terminal. Now I am opening anaconda to begin writing code for the file hw3_abirk.py. I have started coding, currently reading up on numpy. I have made my way to question 3b and now I have to find the plt commands for saving files and selecting file types. It is much simpler than I expected, that's done. Now I have to figure out what to do for problem 4. I figured it out. I used the clip function to adjust the array values. I plotted the arrays together and took the screenshot. Now I'm looking at python based astronomy software. I found two, printed the URLs in my code and wrote a brief summary of the two pages. 
+
+To navigate to my class folder i used the cd command and navigated through all the files previous until I arrived at the directory for AST4762. to copy my hw folder into the handin section I used the cp -r command and specified the origin directory and the destination directory: cp -r /mnt/c/users/arami/onedrive/classwork-ucf/ast4762c/homework/hw3_abirk /mnt/c/users/arami/onedrive/classwork-ucf/ast4762c/handin. 
+
+to run the python script in ubuntu I had to manually download the packages and then run the code, but it worked. 
+
+to copy my log into the hw3 folder in handin I used the following command:  cp -r '0-ast5765-abirk.log' /mnt/c/users/arami/onedrive/classwork-ucf/ast4762c/handin/hw3_abirk
+
+Realized I forgot to close my log a couple days ago. My bad
+
+*****OUT: 11:56 AM 9/3/2024
+
+*****IN: 9:00 PM 9/6/2024
+
+Opened log, began working on hw. Opened linux terminal, navigated to hw folder directory, used mkdir command to create hw4_abirk folder. Opened directory, used touch command to make hw4_aramisbirk.py file. I have downloaded and copied the template file into my homework folder. The features that stand out to me are the comments throughout explaining the function of every line or groups of lines, so that the reader can tell what purpose that line serves. The abbreviations for the imported libraries also makes code more concise and user friendly. The necessary parts would be the main arguments of the function such as the parameters, operations, and returns (which should all be explained with comments) and then there needs to be an error message for exceptions. I think the notes aren't very important to the functionality of the code but I'm sure they would be helpful with debugging in the future if there was a clear explanation of the algorithm used to design the code. References are important to avoid plagiarism. Having examples of proper execution is sure to be helpful so that a reader can run the examples through the code and guage the response to determine if the code is functioning properly. A revision section seems redundant if we're using github to track all changes to our code, but I guess it can't hurt to be too safe. 
+
+I am attempting to understand how to use github to save my progress. It is going slowly. It does not seem to be picking up the changes I am making to this log anymore, I am not sure why. The repository is for my entire hw folder, so it should be able to notice changes to the file. I will continue documenting here, I may also be mistaken because I am very new to using github. It updated just now, I guess it could tell I was doubting it. alright now that I understand github I have modified my template file to contain the function square and added comments appropriately. 
+
+I have finished the first chunk of the homework, I made the first function and tested it with multiple inputs and recorded the results in the examples section of my template file. I committed my progress to github.
+
+after many google searches and much frustration, I have learned how to use numpy to square 2D arrays, and modified my function to do so. Now I am writing an example of the output in the function docstring. I have finished the square plot function, I had to revise my square function because it didn't like my inputs, turns out theres a way simpler way. 
+
+I had to do a quick crash course on FITS files from the link in the homework, definitely going to need more practice with that, but I managed to plot the zip file, and now I am getting ready to copy my homework folder into the handin folder. to copy my hw folder into the handin section I used the cp -r command and specified the origin directory and the destination directory: cp -r /mnt/c/users/arami/onedrive/classwork-ucf/ast4762c/homework/hw4_abirk /mnt/c/users/arami/onedrive/classwork-ucf/ast4762c/handin
+
+I had to install astropy on my ubuntu system to run the hw file, but it eventually worked. The program runs in the linux environment without issue.
+
+the log was the first thing I put in the hw4 file before making the python file. I used cp -r '0-ast5765-abirk.log' /mnt/c/users/arami/onedrive/classwork-ucf/ast4762c/handin/hw4_abirk
+
+Now I will use the tar zcf hw4_abirk.tar.gz hw4_abirk command to tar my file and submit to webcourses. 
+
+*****OUT: 1:30 AM 9/7/2024
+
+*****IN: 5:19 PM 9/14/2024
+
+Doing more work on hw5 today, still working on 2c. I have found a way to make a gaussian curve with the same std and mean as the histogram, and found a way to scale the curve to the size of the histogram, and the fit seems pretty nice.
+
+
+
+
+
+
+

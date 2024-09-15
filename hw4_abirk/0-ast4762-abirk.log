@@ -95,9 +95,16 @@ Now I will use the tar zcf hw4_abirk.tar.gz hw4_abirk command to tar my file and
 
 *****OUT: 1:30 AM 9/7/2024
 
+*****IN: 10:09 PM 9/13/2024
 
+I have opened wsl and made a new directory for hw5 using command mkdir hw5_abirk and used touch command to make a file named hw5_abirk.py. 
 
+I then used the cp -r command to copy the log from my hw4_abirk directory to my hw5_abirk directory (cp -r /mnt/c/users/arami/onedrive/classwork-ucf/ast4762c/homework/hw4_abirk/0-ast4762-abirk.log /mnt/c/users/arami/onedrive/classwork-ucf/ast4762c/homework/hw5_abirk) 
 
+Now I'm going to open my .py file with spyder and begin coding. 
 
+Just realized I got too focused on coding and forgot to log and open github, doing that now. In recent news, I have finished the first two questions for problem 2. working on 2c now, trying to find a way to fit the gaussian fit to the histogram but my values for frequency are much higher in the histogram for some reason.
 
+I couldn't figure it out tonight, going to bed. 
 
+*****OUT: 12:30 AM 9/14/2024
